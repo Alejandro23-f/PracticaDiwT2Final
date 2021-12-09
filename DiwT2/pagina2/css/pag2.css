@@ -1,0 +1,424 @@
+/* Menu nav */
+
+#menu {
+margin-right: 30px;    
+}
+
+.nav-link {
+font-family: 'Poppins', sans-serif !important;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 3px;
+}
+
+nav li{
+padding-left: 22px;
+padding-right: 22px;
+}
+
+
+img {
+max-width: 100%;
+}
+.cabecera{
+height: 700px;
+}
+
+
+
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:focus .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #6C63FF;
+}
+
+#emailf{
+    margin: 0px 70px 12px 100px;
+    background-image: linear-gradient(to right, white , #E2DFF9);
+}
+#emailf .container{
+    
+    padding-bottom: 5rem;
+}
+
+#creativo{
+font-size: 120px;
+}
+
+.form-grupo {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: #FFF;
+}
+
+.form-grupo {
+    margin-bottom: 1rem;
+}
+.rounded {
+    border-radius: 0.25rem !important;
+}
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.form-grupo label {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.form-grupo input {
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#correito{
+    color: #6C63FF;    
+}
+
+#btn1{
+background-color: #6C63FF;
+color:white;
+font-weight: bold;
+font-size: 17px;
+font-family: Lato,sans-serif;
+width: 212px;
+height: 52px;
+border-radius: 4px;
+}
+
+#vidio{
+font-size: 17px;
+font-family: Lato,sans-serif;    
+}
+#idAbout{
+    padding-bottom: 140px;
+}
+#idAbout h2 {
+margin-top: 100px;
+font-family: Lato,sans-serif;  
+font-size: 40px;
+font-weight: 600px;
+font-weight: bold;
+line-height: 1.5;
+margin-bottom: 50px;
+}
+
+#textoAbout{
+font-family: Lato,sans-serif;  
+font-size: 20px;
+line-height: 2;
+}
+
+#aprender{
+margin-top: 40px;
+color: #6C63FF;
+margin-bottom: 150px;
+}
+
+#trabajos h2{
+    margin-top: 50px;
+    font-family: Lato,sans-serif;  
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: 1.5;
+    margin-bottom: 60px;  
+    letter-spacing: 1.2px;  
+}
+#btn2{
+
+    color:black;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Lato,sans-serif;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    letter-spacing: 1.2px;
+    background-color: white;
+    }
+#btn2:hover{
+    color:white;
+    background-color: black;   
+}
+#btn3{
+   border-color: whitesmoke;
+   border-radius: 20px;
+   background-color: transparent;
+    color:whitesmoke;
+    font-weight: lighter;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: Lato,sans-serif;
+    width: 250px;
+    height: 50px;
+}
+#btn3:hover{
+    color:black;
+    background-color:whitesmoke;   
+    border: none;
+}
+#btn4{
+
+    color:black;
+    font-weight: lighter;
+    font-size: 13px;
+    font-family: Lato,sans-serif;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    letter-spacing: 1.2px;
+    background-color: white;
+    }
+#btn4:hover{
+    color:white;
+    background-color: black;   
+}
+#btn5{
+
+    color:black;
+    font-weight: lighter;
+    font-size: 13px;
+    font-family: Lato,sans-serif;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+    letter-spacing: 1.2px;
+    background-color: white;
+    }
+#btn5:hover{
+    color:white;
+    background-color: black;   
+}
+
+#servicios h2{
+    margin-top: 50px;
+    font-family: Lato,sans-serif;  
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: 1.5;
+    margin-bottom: 60px;  
+    letter-spacing: 1.2px; 
+}
+
+.trabajadores {
+    position: relative;
+    align-items: center;
+    justify-content: center;   
+}
+.vendedor span{
+    color: #6C63FF;;
+}
+.img-container{
+    width: 100%;
+}
+
+.overlay-img {
+    width: 307px;
+    height: 387px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.overlay-img {
+    background-color: white;
+    z-index: -2;
+}
+
+#idAbout .trabajadores img {
+    width: 307px;
+    height: 387px;
+}
+
+.trabajadores img:hover {
+    opacity: 0.2;
+    transition: 0.2s linear;
+}
+
+.trabajadores .recuadro {
+    width: 676px;
+    height: 507px;
+}
+
+.trabajadores .cuadrochico {
+    width: 338px;
+    height: 253px;
+}
+
+.trabajadores .overlay-img{
+    padding-top: 340px;
+  
+}
+.trabajadores .overlay-img i{
+    margin: 5px;
+  
+}
+
+.vendedor{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.iconito-trabajo {
+    height: 40%;
+    transform: scale(0.9);
+}
+#servicios .imagenes {
+ padding-left: 100px;
+ padding-right: 200px;
+}
+
+.iconito-trabajo *{
+    margin-top: 35px;
+}
+#frasesEjemplos{
+    bottom: 20%;
+}
+#fondo-carousel{
+    background-image: url("../img/altavoz.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.carousel-item img {
+    z-index: -3;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color:#6C63FF;
+}
+.carousel-item{
+    font-family: 'PT Serif', serif !important;
+    letter-spacing: 1.2px; 
+    font-size: 15px;
+}
+.barrita{
+    background-color: rgb(33, 37, 41);
+}
+.derechosAutor{
+    background-color: rgb(32, 32, 32);
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+}
+.suscribirse{
+    align-items: center;
+    justify-content: center;
+}
+#blogReciente h2{
+    padding-top: 250px;
+    padding-bottom: 200px;
+    font-weight: normal;
+    text-align: center;
+}
+.empresas{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.lugares{
+    padding-top: 80px;
+  padding-left: 80px;
+    background-color: rgb(251, 250, 247);
+}
+.lugar{
+    padding-top: 30px;
+}
+
+#contactar .contactar input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgray;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-size: 21px;
+  }
+  #contactar .contactar input::placeholder {
+    border-color: lightgray;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-size: 21px;
+  }
+#contactar .contactar input:focus {
+    border-color: gray
+  }
+  #volverArriba {
+    position: fixed;
+    bottom: 40px;
+    display:inline-block;
+    right: 40px;
+    } 
+    #contactar .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contactar .btn4{
+        
+        padding-left: 40%;
+       
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(57, 57, 57);
+        padding-left: 0%;
+        padding-bottom: 5%;
+        color: whitesmoke;
+        padding-top: 120px;
+    }
+  
+    footer ul{
+        list-style: none;
+    }
+    footer .btnRedes button{
+        
+        color: whitesmoke;
+    }
+
+#ruedecita {
+    position: fixed;
+    top: 130px;
+    display:inline-block;
+    right: 20px;
+    } 
+
+#facebook {
+    position: absolute;
+    top: 300px;
+    display:inline-block;
+    right: 10px;
+    }
+
+#facebook i {
+    height: 100px;
+    width: 100px;
+}
+
+.trabajadores {
+    position: relative;
+  }
+  
+.overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
